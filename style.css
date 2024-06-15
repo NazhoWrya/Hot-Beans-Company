@@ -1,0 +1,52 @@
+/* styles.css */
+
+body {
+    background-image: url('company-image.png');
+    background-size: cover; /* apply the image as background colour */
+    background-repeat: no-repeat; /* none rpeating*/
+    background-position: center center; /* align the image in the center */
+    background-attachment: fixed; /* Ensure the background is stable*/
+}
+
+header, section {
+    background: rgba(252, 247, 237, 0.8); /* White background help redability */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #0c0c0c;
+    font-weight:bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+.profile p {
+    color: #050505;
+}
+/* Reset default styles for better control */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#logo {
+    width: 150px; /* Adjust the width */
+    height: auto; /* Adjust the height automatically based on the width*/
+}
